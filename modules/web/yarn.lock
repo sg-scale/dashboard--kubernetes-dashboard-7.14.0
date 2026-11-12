@@ -10368,6 +10368,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"d3-path@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "d3-path@npm:3.1.1"
+  checksum: 48837740a76e0d4e9ef024ef26607bb6414e85f8aa85bde06d08ca8ea30da2174f32482cd68870da40175589774fb68bf4cc11e8262846e210be2d0876fe87c2
+  languageName: node
+  linkType: hard
+
 "d3-sankey@npm:^0.12.3":
   version: 0.12.3
   resolution: "d3-sankey@npm:0.12.3"
@@ -10398,12 +10405,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3-shape@npm:3.2.0, d3-shape@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "d3-shape@npm:3.2.0"
+"d3-shape@npm:3.2.1":
+  version: 3.2.1
+  resolution: "d3-shape@npm:3.2.1"
   dependencies:
-    d3-path: ^3.1.0
-  checksum: de2af5fc9a93036a7b68581ca0bfc4aca2d5a328aa7ba7064c11aedd44d24f310c20c40157cb654359d4c15c3ef369f95ee53d71221017276e34172c7b719cfa
+    d3-path: ^3.1.1
+  checksum: 5b09997dc9269aa900ee487db42376675c02d65086f29cf6f20be3559f4e45616bc6ee6c0be6bdb947d14ff3f1b127d231d654bf64f34a4a3001aec9813b1a60
   languageName: node
   linkType: hard
 
@@ -10413,6 +10420,15 @@ __metadata:
   dependencies:
     d3-path: 1
   checksum: 46566a3ab64a25023653bf59d64e81e9e6c987e95be985d81c5cedabae5838bd55f4a201a6b69069ca862eb63594cd263cac9034afc2b0e5664dfe286c866129
+  languageName: node
+  linkType: hard
+
+"d3-shape@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "d3-shape@npm:3.2.0"
+  dependencies:
+    d3-path: ^3.1.0
+  checksum: de2af5fc9a93036a7b68581ca0bfc4aca2d5a328aa7ba7064c11aedd44d24f310c20c40157cb654359d4c15c3ef369f95ee53d71221017276e34172c7b719cfa
   languageName: node
   linkType: hard
 
@@ -15187,7 +15203,7 @@ __metadata:
     crop-url: 4.0.1
     cypress: 14.5.3
     cypress-fail-fast: 7.1.1
-    d3-shape: 3.2.0
+    d3-shape: 3.2.1
     d3-time-format: 4.1.0
     del: 8.0.0
     eslint: 8.57.0
